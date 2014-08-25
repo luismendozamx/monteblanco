@@ -1,11 +1,61 @@
-
-
 /* ==========================================================================
-   Author's custom styles
+   Author: Luis Mendoza
+   Date: 25/08/2014
+
+   Colors: 
+   	blue: 		#0960ad
+   	gray: 		#5e5b58
    ========================================================================== */
 
+/* ==========================================================================
+	0. General classes
+   ========================================================================== */
 
+#main-container{
+	position: relative;
+	z-index: 1000;
+}
 
+/* ==========================================================================
+	1. Navigation
+   ========================================================================== */
+#main-nav{
+	margin-top: 20px;
+}
+
+#main-nav.navbar.navbar-inverse{
+	background-color: transparent !important;
+	border: none !important;
+	background-image: none !important;
+	box-shadow: 		none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:	none;
+}
+
+#main-nav .container{
+	background-color: #0960ad;
+	padding-top: 20px;
+}
+
+#main-nav .navbar-nav>li>a{
+	color: #fff !important;
+}
+
+/* ==========================================================================
+	2. Intro
+   ========================================================================== */
+
+#fixed-background{
+	background-image: url(../img/IMG_9322.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 600px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
 
 
 
