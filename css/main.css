@@ -16,6 +16,21 @@
 	z-index: 1000;
 }
 
+.center{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+.fill{
+	width: 100%;
+}
+
+.w300{
+	font-weight: 300;
+}
+
 /* ==========================================================================
 	1. Navigation
    ========================================================================== */
@@ -41,12 +56,22 @@
 	color: #fff !important;
 }
 
+#logo-nav{
+	width: 200px;
+	margin-left: 40px !important;
+}
+
+.navbar-brand{
+	padding-top: 0px;
+	margin-top: -10px;
+}
+
 /* ==========================================================================
 	2. Intro
    ========================================================================== */
 
 #fixed-background{
-	background-image: url(../img/IMG_9322.jpg);
+	background-image: url(../img/home-2.jpg);
 	background-size: cover;
 	background-position: center center;
 	height: 600px;
@@ -57,8 +82,56 @@
 	z-index: 0;
 }
 
+/* ==========================================================================
+	3. Secciones
+   ========================================================================== */
+
+#secciones{
+	margin-top: 400px;
+	background-color: #fff;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+.seccion-home{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 360px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.seccion-home h3{
+	margin-top: 0px;
+	padding-top: 145px;
+	color: #fff;
+	font-weight: 300;
+}
+
+/* ==========================================================================
+	4. Iconos
+   ========================================================================== */
+#iconos{
+	background-color: #eee;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#iconos h3{
+	color: #5e5b58;
+	margin-bottom: 20px;
+}
 
 
+/* ==========================================================================
+	5. Footer
+   ========================================================================== */
+
+footer{
+	background-color: #5e5b58;
+	height: 300px;
+}
 
 
 
