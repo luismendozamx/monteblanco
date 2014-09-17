@@ -22,10 +22,15 @@
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: middle;
+	display: block;
 }
 
 .fill{
-	width: 100%;
+	width: 100% !important;
+}
+
+.blue{
+	color: #0960ad;
 }
 
 .w300{
@@ -55,6 +60,7 @@
 
 #main-nav .navbar-nav>li>a{
 	color: #fff !important;
+	font-weight: 300;
 }
 
 #logo-nav{
@@ -95,7 +101,7 @@ ul.nav.navbar-nav li a:hover,
 ul.nav.navbar-nav > .active a:hover{
 	background-image: none;
 	background-color: transparent;
-	border-bottom: 2px solid #e6a623;
+	border-bottom: 2px solid #fff;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -134,7 +140,8 @@ ul.nav.navbar-nav > .active a:hover{
 	background-repeat: no-repeat;
 	height: 360px;
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	background-color: rgba(1, 1, 1, 0.5);
 }
 
 .seccion-home h3{
@@ -142,6 +149,17 @@ ul.nav.navbar-nav > .active a:hover{
 	padding-top: 145px;
 	color: #fff;
 	font-weight: 300;
+}
+
+.overlay{
+	z-index: 1001;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(94, 91, 88, 0.4);
+}
+
+.overlay:hover{
+	background-color: transparent;
 }
 
 /* ==========================================================================
@@ -164,8 +182,45 @@ ul.nav.navbar-nav > .active a:hover{
    ========================================================================== */
 
 footer{
-	background-color: #5e5b58;
-	height: 300px;
+	background-color: #999999;
+	color: #fff !important;
+}
+
+footer .nav.nav-pills.nav-stacked li a,
+footer .nav.nav-pills.nav-stacked li p{
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 300;
+}
+
+footer .nav.nav-pills.nav-stacked li p{
+	padding: 5px 15px 5px 15px;
+	margin-bottom: 5px;
+}
+
+footer .nav.nav-pills.nav-stacked li a:hover{
+	color: #e6a623;
+	background-color: transparent;
+}
+
+.footer-form,
+#email-input,
+.email-btn{
+	border-radius: 0px !important;
+}
+
+.email-btn{
+	background-color: #0960ad;
+	background-image: none;
+	color: #fff;
+	border-color: #0960ad;
+	text-shadow: none;
+}
+
+#email-input{
+	min-width: 250px;
+	width: 70%;
 }
 
 
