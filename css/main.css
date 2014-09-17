@@ -235,9 +235,11 @@ ul.nav.navbar-nav > .active a:hover{
 
 #side-menu .nav.nav-pills.nav-stacked li a{
 	color: #fff;
-	border-bottom: 1px solid #fff;
 	border-radius: 0px !important;
 	padding-left: 5px;
+}
+#side-menu .nav.nav-pills.nav-stacked li{
+	border-bottom: 1px solid #fff;
 }
 
 #side-menu .nav.nav-pills.nav-stacked li.active a{
@@ -245,10 +247,9 @@ ul.nav.navbar-nav > .active a:hover{
 	background-color: transparent;
 }
 
-#side-menu .nav.nav-pills.nav-stacked li:last-child a{
+#side-menu .nav.nav-pills.nav-stacked li:last-child{
 	color: #fff;
 	border-radius: 0px !important;
-	padding-left: 5px;
 	border-bottom: 1px solid #e6a623;
 }
 
@@ -256,6 +257,25 @@ ul.nav.navbar-nav > .active a:hover{
 	color: #0960ad;
 	background-color: transparent;
 }
+
+.sub-menu{
+	padding-bottom: 10px;
+	list-style-type: none;
+}
+
+.sub-menu li{
+	border-bottom: none !important;
+}
+
+/*
+.sub-menu li a{
+	color: #0960ad !important;
+}
+
+.sub-menu li a:hover{
+	color: #fff !important;
+}
+*/
 
 /* ==========================================================================
 	5. Page Content
