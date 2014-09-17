@@ -8,9 +8,34 @@
    	yellow: 	#e6a623
    ========================================================================== */
 
+@font-face {
+    font-family: "Antenna";
+    src: url("../fonts/Antenna-Light.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Antenna";
+    src: url("../fonts/Antenna-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Antenna";
+    src: url("../fonts/Antenna-LightItalic.woff") format('woff');
+    font-style: italic;
+}
+
 /* ==========================================================================
 	0. General classes
    ========================================================================== */
+
+*{
+	font-family: "Antenna";
+}
+
+a:hover{
+	text-decoration: none;
+}
 
 #main-container{
 	position: relative;
@@ -80,6 +105,7 @@
 	margin-right: 15px;
 	margin-left: 15px;
 	margin-bottom: 10px;
+	border-bottom: 2px solid #0960ad;
 }
 
 ul.nav.navbar-nav > .active a{
@@ -127,8 +153,15 @@ ul.nav.navbar-nav > .active a:hover{
 	3. Secciones
    ========================================================================== */
 
-#secciones{
+#secciones-home{
 	margin-top: 600px;
+	background-color: #fff;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
+#secciones{
+	margin-top: 400px;
 	background-color: #fff;
 	padding-top: 40px;
 	padding-bottom: 25px;
@@ -176,9 +209,79 @@ ul.nav.navbar-nav > .active a:hover{
 	margin-bottom: 20px;
 }
 
+/* ==========================================================================
+	5. Page Conatiner
+   ========================================================================== */
+
+#page-container{
+	background-color: #fff;
+	margin-top: 400px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
 
 /* ==========================================================================
-	5. Footer
+	5. Side Menu
+   ========================================================================== */
+
+#side-menu{
+	background-color: #e6a623;
+	color: #fff;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#side-menu .nav.nav-pills.nav-stacked li a{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	border-radius: 0px !important;
+	padding-left: 5px;
+}
+
+#side-menu .nav.nav-pills.nav-stacked li.active a{
+	color: #0960ad;
+	background-color: transparent;
+}
+
+#side-menu .nav.nav-pills.nav-stacked li:last-child a{
+	color: #fff;
+	border-radius: 0px !important;
+	padding-left: 5px;
+	border-bottom: 1px solid #e6a623;
+}
+
+#side-menu .nav.nav-pills.nav-stacked li a:hover{
+	color: #0960ad;
+	background-color: transparent;
+}
+
+/* ==========================================================================
+	5. Page Content
+   ========================================================================== */
+.content-title{
+	color: #e6a623;
+	border-top: 2px solid #e6a623;
+	border-bottom: 2px solid #e6a623;
+	padding-left: 12px;
+	margin-left: 3px;
+}
+
+.square-container{
+
+}
+
+.seccion-historia{
+	height: 265px;
+}
+
+.seccion-historia h3{
+	padding-top: 100px;
+}
+
+/* ==========================================================================
+	6. Footer
    ========================================================================== */
 
 footer{
@@ -221,6 +324,37 @@ footer .nav.nav-pills.nav-stacked li a:hover{
 #email-input{
 	min-width: 250px;
 	width: 70%;
+}
+
+/* ==========================================================================
+	7. Meida Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 1200px){
+
+	#main-nav .navbar-nav>li>a{
+		font-size: 12px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+
+	#side-menu{
+		padding-bottom: 20px;
+	}
+
+	#page-content{
+		margin-top: 20px;
+	}
+
+	.content-title{
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+
 }
 
 
