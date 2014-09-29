@@ -7,13 +7,13 @@ $(document).ready( function(){
 	$("#slider").css("margin-top", (windowHeight/2)-120 + "px");
 	$("#nav-and-slider").height(windowHeight-20);
 	$("#secciones-home").css("margin-top", "0px");
-	$('#scroll-down').css("margin-top", (windowHeight/2)-90 + "px");
+	$('#scroll-down').css("margin-top", (windowHeight/4)-40 + "px");
 	$("#fixed-background").height(windowHeight);
 
 	//Start Slideshow
 	$("#fixed-background").backstretch([
 		"img/home-2.jpg",
-		"img/home-3.jpg"
+		"img/Fondo1.jpg"
 		], {duration: 4000, fade: 750} );
 
 	//Slideshow controllers
@@ -36,6 +36,6 @@ $(window).resize(function(){
 	$("#slider").css("margin-top", (windowHeight/2)-120 + "px");
 	$("#nav-and-slider").height(windowHeight-20);
 	$("#secciones-home").css("margin-top", "0px");
-	$('#scroll-down').css("margin-top", (windowHeight/2)-90 + "px");
+	$('#scroll-down').css("margin-top", (windowHeight/4)-40 + "px");
 	$("#fixed-background").height(windowHeight);
 });
