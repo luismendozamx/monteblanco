@@ -11,11 +11,13 @@ $(document).ready( function(){
 	$("#fixed-background").height(windowHeight);
 
 	//Start Slideshow
-	$("#fixed-background").backstretch([
+	if( $("#fixed-background") != nil){
+		$("#fixed-background").backstretch([
 		"img/home-2.jpg",
 		"img/Fondo1.jpg"
 		], {duration: 4000, fade: 750} );
-
+	}
+	
 	//Slideshow controllers
 	$("#prev").click( function(){
 		$("#fixed-background").backstretch("prev");
