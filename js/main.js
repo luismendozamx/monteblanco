@@ -11,7 +11,7 @@ $(document).ready( function(){
 	$("#fixed-background").height(windowHeight);
 
 	//Start Slideshow
-	if( $("#fixed-background") != nil){
+	if( $("#fixed-background") != null){
 		$("#fixed-background").backstretch([
 		"img/home-2.jpg",
 		"img/Fondo1.jpg"
