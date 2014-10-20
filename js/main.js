@@ -6,7 +6,11 @@ $(document).ready( function(){
 
 	//Make Full-Screen and adjust element position
 	$("#slider").css("margin-top", (windowHeight/2)-120 + "px");
-	$("#nav-and-slider").height(windowHeight-20);
+	if( windowWidth < 768 ){
+		$("#nav-and-slider").height(windowHeight);
+	}else{
+		$("#nav-and-slider").height(windowHeight-20);
+	}
 	$("#secciones-home").css("margin-top", "0px");
 	$('#scroll-down').css("margin-top", (windowHeight/4)-40 + "px");
 
