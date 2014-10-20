@@ -25,7 +25,7 @@
         <![endif]-->
 
         <!-- Backgroun Image -->
-        <div id="fixed-background" style="background-image:url(img/home-2.jpg)">
+        <div id="fixed-background" style="background-image:url(img/IMG_9000.jpg)">
         </div> <!-- /Backgroun Image -->
 
         <!-- Main Container -->
@@ -100,7 +100,7 @@
 
                   <div class="tab-pane" id="conservacion">
 
-                    <!-- PLANTAS CULTIVADORAS -->
+                    <!-- GUÍA DE CONSERVACIÓN Y USO -->
                     <div class="row content-title">
                       <div class="col-xs-12">
                         <h3 class="center">GUÍA DE CONSERVACIÓN Y USO</h3>
@@ -109,17 +109,8 @@
 
                     <div class="row m-top20 m-btm10">
                       <div class="col-sm-12 m-btm10">
-                        <p>Contamos con 6 plantas cultivadoras de champiñón y una de envasado situadas estratégicamente en zonas que permitan cosechar durante todo el año, otorgando flexibilidad de responder rápidamente ante cambios de la demanda y necesidad del cliente.</p>
-                      </div>
-                      <div class="col-sm-6">
-                        <img src="img/mapa.png" class="img-responsive center">
-                      </div>
-                      <div class="col-sm-6">
-                        <h4>CHAMPIÑONES EL ENCINAL</h4>
-                        <p>CONTACTO: xx</p>
-                        <p>DIRECCIÓN: xx</p>
-                        <p>EMAIL: xx</p>
-                        <p>TEL: xx</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi beatae, numquam eligendi natus ad. Minus sapiente voluptatum error ratione! Officia vitae voluptatum ducimus id similique vero ea, est dolorem, et</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minima officiis cupiditate enim tempora. Molestiae ut fuga, ipsam corporis, eligendi beatae facilis et sed porro nobis perspiciatis mollitia illo natus.</p>
                       </div>
                     </div>
                     <!-- /PLANTAS CULTIVADORAS -->
@@ -222,7 +213,7 @@
           <footer>
             <div class="container p-top30 p-btm30">
               <div class="row">
-                <div class="col-sm-2 col-xs-6">
+                <div class="col-sm-2 col-xs-12">
                   <!-- Menú 1 -->
                   <ul class="nav nav-pills nav-stacked">
                     <li><a href="quienes.html">QUIENES SOMOS</a></li>
@@ -234,17 +225,17 @@
                   </ul>
                   <!-- Menú 1 -->
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-12">
                   <!-- Info Contacto -->
                   <ul class="nav nav-pills nav-stacked">
                     <li><p>MONTEBLANCO, S.A. DE C.V.</p></li>
                     <li><p>MÉXICO D.F., MÉXICO</p></li>
                     <li><a href="tel:(52) 55 0000 0000">TEL. (52) 55 0000 0000</a></li>
-                    <li><a href="mailto:info@monteblanco.com.mx"> info@monteblanco.com.mx</a></li>
+                    <li><a href="mailto:info@monteblanco.com.mx" target="_blank"> info@monteblanco.com.mx</a></li>
                   </ul>
                   <!-- /Info Contacto -->
                 </div>
-                <div class="col-sm-7 footer-form">
+                <div class="col-sm-7 footer-form col-xs-12">
                   <!-- Contacto -->
                   <h5 class="blue m-btm20">MANTENTE EN CONTACTO</h5>
                   <h5 class="m-btm20 w300">TE INFORMAMOS DE NUESTROS FUTUROS EVENTOS, NOTICIAS Y OFERTAS DE TRABAJO</h5>
@@ -274,13 +265,14 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/stickUp.js"></script>
-        <script src="js/main.js"></script>
 
         <script type="text/javascript">
           jQuery(function($) {
             $(document).ready( function() {
               //enabling stickUp on the '.navbar-wrapper' class
-              //$('#side-menu').stickUp();
+              if( $(window).width() > 768){
+                $('#side-menu').stickUp();
+              }
             });
           });
         </script>
