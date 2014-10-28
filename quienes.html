@@ -64,7 +64,7 @@
             <div class="container">
               <div class="row">
 
-              <div class="col-sm-3 p-lft00 p-rgt00">
+              <div id="side-menu-container" class="col-sm-3 p-lft00 p-rgt00">
                 <div id="side-menu">
                   <h3>QUIENES SOMOS</h3>
                   <ul class="nav nav-pills nav-stacked" role="tablist">
@@ -445,13 +445,14 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/stickUp.js"></script>
+        <script src="js/page.js"></script>
 
         <script type="text/javascript">
           jQuery(function($) {
             $(document).ready( function() {
               //enabling stickUp on the '.navbar-wrapper' class
               if( $(window).width() > 768){
-                $('#side-menu').stickUp();
+                //$('#side-menu').stickUp();
               }
             });
           });
