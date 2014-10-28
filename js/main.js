@@ -33,23 +33,28 @@ function resizeObjects(){
 	//Main container screen height
 	var windowHeight = $(window).height();
 	var windowWidth = $(window).width();
+	var aux;
 
 	//Make Full-Screen and adjust element position
-	$("#slider").css("margin-top", (windowHeight/2)-120 + "px");
 	if( windowWidth < 768 ){
 		$("#nav-and-slider").height(windowHeight);
 	}else{
 		$("#nav-and-slider").height(windowHeight-20);
 	}
-	$("#secciones-home").css("margin-top", "0px");
-
-	position = $('#main-nav').height() + 40 + ((windowHeight/2)-120) + $("#slider").height() + $('#scroll-down').height();
-
-	$('#scroll-down').css("margin-top", windowHeight - position + "px");
- 
+	
 	if( windowWidth > 800){
 		$("#fixed-background").height(windowHeight);
+		$("#slider").css("margin-top", (windowHeight/2)-120 + "px");
+		aux = (windowHeight/2)-120;
 	}else{
 		$("#fixed-background").height(windowHeight);
+		$("#slider").css("margin-top", "0px");
+		aux = 0;
 	}
+
+	$("#secciones-home").css("margin-top", "0px");
+
+	position = $('#main-nav').height() + 40 + aux + $("#slider").height() + $('#scroll-down').height();
+
+	$('#scroll-down').css("margin-top", windowHeight - position + "px");
 }

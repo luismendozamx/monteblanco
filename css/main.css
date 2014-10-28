@@ -563,6 +563,10 @@ footer .nav.nav-pills.nav-stacked li a:hover{
 		margin-left: 0px !important;
 	}
 
+	.footer-form{
+		padding-left: 30px;
+	}
+
 }
 
 /* ==========================================================================
