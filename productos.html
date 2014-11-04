@@ -63,7 +63,8 @@
           <section id="page-container">
             <div class="container">
               <div class="row">
-
+              
+              <!-- Side Menu -->
               <div class="col-sm-3 p-lft00 p-rgt00">
                 <div id="side-menu">
                   <h3>PRODUCTOS</h3>
@@ -71,29 +72,34 @@
                     <li>
                       <a href="#conservacion" role="tab" data-toggle="tab">GUÍA DE CONSERVACIÓN Y USO</a>
                     </li>
-                    <li class="active">
+                    <li id="todos-nav" class="active">
                       <a href="#todos" role="tab" data-toggle="tab">TODOS</a>
                     </li>
-                    <li>
+                    <li id="frescos-nav">
                       <a href="#frescos" role="tab" data-toggle="tab">FRESCOS</a>
                       <ul class="sub-menu">
-                        <li><a href="">CHAMPIÑON</a></li>
-                        <li><a href="">PORTABELLA</a></li>
-                        <li><a href="">CREMINI</a></li>
-                        <li><a href="">BABY PORTABELLA</a></li>
-                        <li><a href="">MIXTOS</a></li>
-                        <li><a href="">SETA</a></li>
-                        <li><a href="">CUITLACOCHE</a></li>
-                        <li><a href="">SHITAKE</a></li>
-                        <li><a href="">ERYNGII</a></li>
+                        <li><a href="#champiñon" role="tab" data-toggle="tab">CHAMPIÑON</a></li>
+                        <li><a href="#portabella" role="tab" data-toggle="tab">PORTABELLA</a></li>
+                        <li><a href="#cremini" role="tab" data-toggle="tab">CREMINI</a></li>
+                        <li><a href="#baby-portabella" role="tab" data-toggle="tab">BABY PORTABELLA</a></li>
+                        <li><a href="#mixtos" role="tab" data-toggle="tab">MIXTOS</a></li>
+                        <li><a href="#seta" role="tab" data-toggle="tab">SETA</a></li>
+                        <li><a href="#cuitlacoche" role="tab" data-toggle="tab">CUITLACOCHE</a></li>
+                        <li><a href="#shitake" role="tab" data-toggle="tab">SHITAKE</a></li>
+                        <li><a href="#eryngii" role="tab" data-toggle="tab">ERYNGII</a></li>
                       </ul>
                     </li>
-                    <li>
-                      <a href="#empacados" role="tab" data-toggle="tab">EMPACADOS</a>
+                    <li id="empacados-nav">
+                      <a href="#empacados" role="tab" data-toggle="tab">ENLATADOS</a>
+                      <ul class="sub-menu">
+                        <li><a href="#champiñon-lata" role="tab" data-toggle="tab">CHAMPIÑONES</a></li>
+                        <li><a href="#cuitlacoche-lata" role="tab" data-toggle="tab">CUITLACOCHE</a></li>
+                      </ul>
                     </li>
                   </ul>
                 </div>
               </div>
+              <!-- /Side Menu -->
             
               <div id="page-content" class="col-sm-9">
                 <div class="tab-content">
@@ -113,13 +119,13 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat minima officiis cupiditate enim tempora. Molestiae ut fuga, ipsam corporis, eligendi beatae facilis et sed porro nobis perspiciatis mollitia illo natus.</p>
                       </div>
                     </div>
-                    <!-- /PLANTAS CULTIVADORAS -->
+                    <!-- /GUÍA DE CONSERVACIÓN Y USO -->
 
                   </div>
 
                   <div class="tab-pane active" id="todos">
 
-                    <!-- PLANTAS CULTIVADORAS -->
+                    <!-- TODOS LOS PRODUCTOS -->
                     <div class="row content-title">
                       <div class="col-xs-12">
                         <h3 class="center">TODOS</h3>
@@ -131,28 +137,28 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ut alias corporis quae, reiciendis inventore nihil voluptatem dignissimos odit dolorem temporibus saepe recusandae est eveniet aliquam culpa. Magni, hic odio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda ea eveniet excepturi nobis repellat necessitatibus beatae, consectetur. Officiis consectetur quae harum molestiae voluptate, soluta amet nostrum, enim iusto corporis!</p>
                       </div>
 
-                      <a href="#frescos" role="tab" data-toggle="tab">
+                      <a id="todos-frescos" href="#frescos" role="tab" data-toggle="tab">
                         <div class="col-xs-6">
                           <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
                           <h4 class="w300 center">Frescos</h4>
                         </div>
                       </a>
 
-                      <a href="#empacados" role="tab" data-toggle="tab">
+                      <a id="todos-empacados" href="#empacados" role="tab" data-toggle="tab">
                         <div class="col-xs-6">
-                          <img src="img/productos/DSC01069.jpg" class="img-responsive" alt="">
-                          <h4 class="w300 center">Empacados</h4>
+                          <img src="img/productos/DSC01233.jpg" class="img-responsive" alt="">
+                          <h4 class="w300 center">Enlatados</h4>
                         </div>
                       </a>
 
                     </div>
-                    <!-- /PLANTAS CULTIVADORAS -->
+                    <!-- /TODOS LOS PRODUCTOS -->
 
                   </div>
 
                   <div class="tab-pane" id="frescos">
 
-                    <!-- PLANTAS CULTIVADORAS -->
+                    <!-- FRESCOS -->
                     <div class="row content-title">
                       <div class="col-xs-12">
                         <h3 class="center">FRESCOS</h3>
@@ -160,49 +166,382 @@
                     </div>
 
                     <div class="row m-top20 m-btm10">
-                      <div class="col-sm-12 m-btm10">
-                        <p>Contamos con 6 plantas cultivadoras de champiñón y una de envasado situadas estratégicamente en zonas que permitan cosechar durante todo el año, otorgando flexibilidad de responder rápidamente ante cambios de la demanda y necesidad del cliente.</p>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Champiñon</h4>
                       </div>
-                      <div class="col-sm-6">
-                        <img src="img/mapa.png" class="img-responsive center">
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01174.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Portabella</h4>
                       </div>
-                      <div class="col-sm-6">
-                        <h4>CHAMPIÑONES EL ENCINAL</h4>
-                        <p>CONTACTO: xx</p>
-                        <p>DIRECCIÓN: xx</p>
-                        <p>EMAIL: xx</p>
-                        <p>TEL: xx</p>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01069.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Cremini</h4>
                       </div>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01102.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Baby Portabella</h4>
+                      </div>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01124.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Mixtos</h4>
+                      </div>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01116.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Seta</h4>
+                      </div>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01108.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Cuitlacoche</h4>
+                      </div>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01078.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Shitake</h4>
+                      </div>
+
+                      <div class="col-xs-4">
+                        <img src="img/productos/DSC01127.jpg" class="img-responsive" alt="">
+                        <h4 class="w300 center">Eryngii</h4>
+                      </div>
+
                     </div>
-                    <!-- /PLANTAS CULTIVADORAS -->
+                    <!-- /FRESCOS -->
 
                   </div>
 
-                  <div class="tab-pane" id="empacados">
-                    
-                   <!-- PLANTAS CULTIVADORAS -->
+                  <!-- CHAMPIÑONES -->
+                  <div class="tab-pane" id="champiñon">
+
                     <div class="row content-title">
                       <div class="col-xs-12">
-                        <h3 class="center">EMPACADOS</h3>
+                        <h3 class="center">CHAMPIÑONES</h3>
                       </div>
                     </div>
 
-                    <div class="row m-top20 m-btm10">
-                      <div class="col-sm-12 m-btm10">
-                        <p>Contamos con 6 plantas cultivadoras de champiñón y una de envasado situadas estratégicamente en zonas que permitan cosechar durante todo el año, otorgando flexibilidad de responder rápidamente ante cambios de la demanda y necesidad del cliente.</p>
-                      </div>
-                      <div class="col-sm-6">
-                        <img src="img/mapa.png" class="img-responsive center">
-                      </div>
-                      <div class="col-sm-6">
-                        <h4>CHAMPIÑONES EL ENCINAL</h4>
-                        <p>CONTACTO: xx</p>
-                        <p>DIRECCIÓN: xx</p>
-                        <p>EMAIL: xx</p>
-                        <p>TEL: xx</p>
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Botón</h4>
+                      <p class="center">250 / 500 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01060.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Entero</h4>
+                      <p class="center">160 / 225 / 250 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01088.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Fileteado</h4>
+                      <p class="center">350 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01137.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Jumbo</h4>
+                      <p class="center">500 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Mediano</h4>
+                      <p class="center">A Granel</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01081.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Rebando</h4>
+                      <p class="center">225 g / 1 Kg / Granel</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01094.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">225 g / 1 Kg</p>
+                    </div>
+
+                  </div>
+                  <!-- /CHAMPIÑONES -->
+
+                  <!-- PORTABELLA -->
+                  <div class="tab-pane" id="portabella">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">PORTABELLA</h3>
                       </div>
                     </div>
-                    <!-- /PLANTAS CULTIVADORAS -->
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01174.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Entero</h4>
+                      <p class="center">225 / 350 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01075.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Rebanado</h4>
+                      <p class="center">500 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01139.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">500 g / Granel</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /PORTABELLA -->
+
+                  <!-- CREMINI -->
+                  <div class="tab-pane" id="cremini">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">CREMINI</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01069.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Entero</h4>
+                      <p class="center">160 / 225 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01099.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Rebanado</h4>
+                      <p class="center">225 / 500 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">225 g / Granel</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /CREMINI -->
+
+                  <!-- BABY PORTABELLA -->
+                  <div class="tab-pane" id="baby-portabella">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">BABY PORTABELLA</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01102.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Baby Bella</h4>
+                      <p class="center">350 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Entero</h4>
+                      <p class="center">225 / 350 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Rebanado</h4>
+                      <p class="center">350 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">160 / 225 g / Granel</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /BABY PORTABELLA -->
+
+                  <!-- MIXTOS -->
+                  <div class="tab-pane" id="mixtos">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">MIXTOS</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01054.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Champiñon y Cremini</h4>
+                      <p class="center">500 g</p>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01124.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seta, Champiñon y Cremini</h4>
+                      <p class="center">350 g</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /MIXTOS -->
+
+                  <!-- SETA -->
+                  <div class="tab-pane" id="seta">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">SETA</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01116.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionada</h4>
+                      <p class="center">225 / 250 / 500 g / Granel</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /SETA -->
+
+                  <!-- CUITLACOCHE -->
+                  <div class="tab-pane" id="cuitlacoche">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">CUITLACOCHE</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01108.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">350 g</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /CUITLACOCHE -->
+
+                  <!-- SHITAKE -->
+                  <div class="tab-pane" id="shitake">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">SHITAKE</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01078.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">160 g / Granel</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /SHITAKE -->
+
+                  <!-- ERYNGII -->
+                  <div class="tab-pane" id="eryngii">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">ERYNGII</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                      <img src="img/productos/DSC01127.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Seleccionado</h4>
+                      <p class="center">160 g</p>
+                    </div>
+                    
+                  </div>
+                  <!-- /ERYNGII -->
+
+                  <div class="tab-pane" id="empacados">
+                    
+                   <!-- EMPACADOS -->
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">ENLATADOS</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01233.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Champiñones</h4>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01258.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Cuitlacoche</h4>
+                    </div>
+
+                    </div>
+                    <!-- /EMPACADOS -->
+
+                    <!-- CHAMPIÑONES LATA -->
+                  <div class="tab-pane" id="champiñon-lata">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">CHAMPIÑONES ENLATADOS</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01233.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Entero</h4>
+                      <p class="center">112/186 g</p>
+                      <p class="center">228/380 g</p>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01236.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Escabeche</h4>
+                      <p class="center">112/186 g</p>
+                      <p class="center">228/380 g</p>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01242.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Rebanado</h4>
+                      <p class="center">112/186 g, 228/380 g</p>
+                      <p class="center">500/800 g, 1760/2835 g</p>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01243.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Trocitos</h4>
+                      <p class="center">112/186 g, 228/380 g</p>
+                      <p class="center">500/800 g, 1760/2835 g</p>
+                    </div>
+
+                  </div>
+                  <!-- /CHAMPIÑONES LATA -->
+
+                  <!-- CUITLACOCHE LATA -->
+                  <div class="tab-pane" id="cuitlacoche-lata">
+
+                    <div class="row content-title">
+                      <div class="col-xs-12">
+                        <h3 class="center">CUITLACOCHE ENLATADO</h3>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-6">
+                      <img src="img/productos/DSC01232.jpg" class="img-responsive" alt="">
+                      <h4 class="w300 center">Sazonado</h4>
+                      <p class="center">215 / 430 g</p>
+                    </div>
+
+                  </div>
+                  <!-- /CUITLACOCHE LATA -->
 
                   </div>
 
@@ -271,6 +610,7 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/stickUp.js"></script>
         <script src="js/page.js"></script>
+        <script src="js/productos.js"></script>
 
         <script type="text/javascript">
           jQuery(function($) {

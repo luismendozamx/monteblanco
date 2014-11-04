@@ -12,9 +12,9 @@ $(document).ready( function(){
 $(document).on('scroll', function(){
 
 	if( $('#side-menu').hasClass('isStuck') ){
-		$('#side-menu').width( (($('#page-content').width())/3) - 30 );
+		//$('#side-menu').width( (($('#page-content').width())/3) - 30 );
 	}else{
-		$('#side-menu').width( sideMenuWidth );
+		//$('#side-menu').width( sideMenuWidth );
 	}
 
 });
