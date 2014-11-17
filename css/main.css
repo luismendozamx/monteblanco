@@ -191,6 +191,11 @@ ul.nav.navbar-nav > .active a:hover{
 	color: rgba(255, 255, 255, 1);
 }
 
+#tagline h1, #tagline h3{
+	/*background-color: #e6a623;*/
+	margin: 0 0px 0 25px;
+}
+
 #slider{
 	color: #fff;
 }
@@ -219,6 +224,7 @@ ul.nav.navbar-nav > .active a:hover{
 	background-color: #fff;
 	padding-top: 60px;
 	padding-bottom: 45px;
+	color: #5e5b58;
 }
 
 #secciones{
@@ -226,6 +232,7 @@ ul.nav.navbar-nav > .active a:hover{
 	background-color: #fff;
 	padding-top: 40px;
 	padding-bottom: 25px;
+	color: #5e5b58;
 }
 
 .seccion-home{
@@ -297,12 +304,13 @@ ul.nav.navbar-nav > .active a:hover{
 }
 
 /* ==========================================================================
-	4. Salud y Sustentabilidad
+	5. Salud y Sustentabilidad
    ========================================================================== */
 #salud{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #fff;
+	color: #5e5b58;
 }
 
 
@@ -311,21 +319,21 @@ ul.nav.navbar-nav > .active a:hover{
 }
 
 /* ==========================================================================
-	4. Iconos
+	6. Iconos
    ========================================================================== */
 #iconos{
 	background-color: #eee;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	color: #5e5b58;
 }
 
 #iconos h3{
 	color: #5e5b58;
-	margin-bottom: 20px;
 }
 
 /* ==========================================================================
-	5. Page Conatiner
+	7. Page Conatiner
    ========================================================================== */
 
 #page-container{
@@ -336,7 +344,7 @@ ul.nav.navbar-nav > .active a:hover{
 }
 
 /* ==========================================================================
-	5. Side Menu
+	8. Side Menu
    ========================================================================== */
 
 #side-menu{
