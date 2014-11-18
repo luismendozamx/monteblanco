@@ -6,8 +6,7 @@ $(document).ready( function(){
 	//Start Slideshow
 	if( $("#fixed-background") != undefined){
 	  $("#fixed-background").backstretch([
-	  "img/home-2.jpg",
-	  "img/Fondo1.jpg"
+	  "img/IMG_9220.jpg"
 	  ], {duration: 4000, fade: 750} );
 	}
 
