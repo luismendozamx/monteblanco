@@ -579,6 +579,10 @@ footer .nav.nav-pills.nav-stacked li a:hover{
 		padding-left: 30px;
 	}
 
+	#fixed-background{
+		height: 200px;
+	}
+
 }
 
 /* ==========================================================================
