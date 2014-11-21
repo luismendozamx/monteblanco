@@ -10,8 +10,8 @@ $(document).ready( function(){
 		$('#todos-nav').removeClass('active');
 	} );
 
-	$('.sub-menu').click( function(){
-		var i = 0;
+	$('.link-fresco').click( function(){
+		$('#frescos-nav').removeClass('active');
 	});
 
 
